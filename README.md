@@ -26,8 +26,8 @@ There are two options either plays with your friend or plays with computer.
 
 - If played against the computer. The same as against player but here the computer tries not to loss and win if can. Each turn check if it has two horizontal or two vertical or diagonal and the third is empty. If not, check if the x has two horizontal or two vertical or diagonal and the third is empty.
 
-<div >
-   <img src="screenshot/PVC.png" alt="PVC" width="300"; style="margin:auto";/>      
+<div align=center>
+   <img src="screenshot/PVC.png" alt="PVC" width="300"/>      
 </div> 
 
 ## How to run the program
