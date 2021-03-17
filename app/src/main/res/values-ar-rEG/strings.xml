@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">تيك تاك تو</string>
+    <string name="PlayerVsComp">العب ضد الحاسوب</string>
+    <string name="PlayerVsPlayer">العب ضد صديقك</string>
+    <string name="xwon">X فاز</string>
+    <string name="Let_O_play_first">ابدأ ب O</string>
+    <string name="From_Haitham">من هيثم</string>
+    <string name="You_VS_Computer">العب مع الكمبيوتر</string>
+    <string name="You_VS_Ur_Friend">العب مع صاحبك</string>
+    <string name="owon">O فاز</string>
+</resources>

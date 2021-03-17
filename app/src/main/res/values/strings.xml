@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="PlayerVsComp">Player Vs Computer</string>
+    <string name="PlayerVsPlayer">Player Vs Player</string>
+    <string name="xwon">X won</string>
+    <string name="Let_O_play_first">Let O play first</string>
+    <string name="From_Haitham">From Haitham</string>
+    <string name="You_VS_Computer">You VS Computer</string>
+    <string name="You_VS_Ur_Friend">You VS Ur Friend</string>
+    <string name="owon">O won</string>
+</resources>

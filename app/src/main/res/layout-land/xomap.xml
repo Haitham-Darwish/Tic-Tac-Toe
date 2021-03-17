@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlayerVsPlayer">
+
+
+
+
+    <LinearLayout
+        android:id="@+id/xo_turn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        <CheckBox
+            android:id="@+id/let_o_first"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Let_O_play_first"
+            android:layout_margin="20dp"/>
+
+        <ImageView
+            android:id="@+id/x"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/x"/>
+
+        <ImageView
+            android:id="@+id/o"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/o"
+            android:contentDescription="o"/>
+
+        <TextView
+            android:id="@+id/txt_win"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="50sp"/>
+
+    </LinearLayout>
+
+
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/xomap"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_below="@id/xo_turn"-->
+    <!--        android:src="@drawable/xomap" />-->
+
+    <GridView
+        android:id="@+id/Grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/xo_turn"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3"/>
+
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#00695C"
+            android:layout_margin="5dp">
+            <TextView
+                android:id="@+id/PVSP"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/You_VS_Ur_Friend"
+                android:background="?android:attr/selectableItemBackground"
+                android:textSize="30sp"
+                android:textColor="@android:color/white"
+                android:padding="15dp"/>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0D47A1"
+            android:layout_margin="5dp">
+        <TextView
+            android:id="@+id/PVSC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/You_VS_Computer"
+            android:background="?android:attr/selectableItemBackground"
+            android:textSize="30sp"
+            android:textColor="@android:color/white"
+            android:padding="15dp"/>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
