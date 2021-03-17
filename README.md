@@ -18,8 +18,8 @@ There are two options either plays with your friend or plays with computer.
 </br></br></br></br></br></br></br></br>
 <div style="margin:auto">
     <img src="screenshot/PVP1.png" alt="PVP1" width="30%"; style="margin:5%"/>
-    <img src="screenshot/PVP2.png" alt="PVP2" width="30%"; padding=5%/>
-    <img src="screenshot/PVP3.png" alt="PVP3" width="30%";  margin=20px />
+    <img src="screenshot/PVP2.png" alt="PVP2" width="30%"; margin=5%/>
+    <img src="screenshot/PVP3.png" alt="PVP3" width="30%";  margin=5% />
 </div>
 
 <br>
