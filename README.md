@@ -16,7 +16,7 @@ There are two options either plays with your friend or plays with computer.
         I have used Grid View to make it a less memory usage.
 <br>
 </br></br></br></br></br></br></br></br>
-<div style="margin:auto">
+<div align=center>
     <img src="screenshot/PVP1.png" alt="PVP1" width="30%"style="margin-left: auto; margin-right: auto;"/>
     <img src="screenshot/PVP2.png" alt="PVP2" width="30%"/>
     <img src="screenshot/PVP3.png" alt="PVP3" width="30%"/>
