@@ -16,8 +16,8 @@ There are two options either plays with your friend or plays with computer.
         I have used Grid View to make it a less memory usage.
 <br>
 </br></br></br></br></br></br></br></br>
-<div>
-    <img src="screenshot/PVP1.png" alt="PVP1" width="300"; margin=5px/>
+<div margin="50px">
+    <img src="screenshot/PVP1.png" alt="PVP1" width="300"; style="margin:5px"/>
     <img src="screenshot/PVP2.png" alt="PVP2" width="300" padding=5px/>
     <img src="screenshot/PVP3.png" alt="PVP3" width="300"  margin=5px />
 </div>
@@ -25,9 +25,11 @@ There are two options either plays with your friend or plays with computer.
 <br>
 
 - If played against the computer. The same as against player but here the computer tries not to loss and win if can. Each turn check if it has two horizontal or two vertical or diagonal and the third is empty. If not, check if the x has two horizontal or two vertical or diagonal and the third is empty.
- <br>
-<img src="screenshot/PVC.png" alt="PVC" width="300" margin-align=center/>      
-    
+
+<div align=center>
+   <img src="screenshot/PVC.png" alt="PVC" width="300"; style="margin:auto";/>      
+</div> 
+
 ## How to run the program
 You can download it from the [store](https://www.amazon.com/gp/product/B08JJPZTPD)
 or download it from github and use android studio to run it in your machine(either your mobile or virtual machine(emulator)).
