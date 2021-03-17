@@ -5,13 +5,13 @@ Tic Tac Toe is a game that both competitors are trying to get three x or o in ho
 There are two options either plays with your friend or plays with computer.
 
 ## Index
-   1. We will start with [how does it work even if Player Vs Player or Player Vs Computer](#How-does-it-works?)
-   2. Then transfer to [how to use or run the app](#How-to-run-the-program) 
+   1. We will start with [how does it work even if Player Vs Player or Player Vs Computer](#how-does-it-works?)
+   2. Then transfer to [how to use or run the app](#how-to-run-the-program) 
 
 ## How does it works?
 <img src="screenshot/interface.png" alt="interface" align="right"  width="300" />
-    -If played against your friend.
-        You will have 9 possibilities and while anyone play the possibilities decreases one, this happen by making an array and put the poistion in it, and before each play check if the poistion is free or not. If anyone has won the boolean iswon will be true, then I have made a conditoin `if(!iswon) print 'the game was ended'`.Hence, if someone won then the game will stop otherwise the game will continue and you can choose any position as long as no one has played in it.
+
+* If played against your friend. You will have 9 possibilities and while anyone play the possibilities decreases one, this happen by making an array and put the poistion in it, and before each play check if the poistion is free or not. If anyone has won the boolean iswon will be true, then I have made a conditoin `if(!iswon) print 'the game was ended'`.Hence, if someone won then the game will stop otherwise the game will continue and you can choose any position as long as no one has played in it.
         I have used Grid View to make it a less memory usage.
 
 <div>
@@ -20,9 +20,7 @@ There are two options either plays with your friend or plays with computer.
     <img src="screenshot/PVP3.png" alt="PVP3" width="300"  margin=5px />
 </div>
 
-        
-   -If played against the computer.
-        The same as against player but here the computer tries not to loss and win if can. Each turn check if it has two horizontal or two vertical or diagonal and the third is empty. If not, check if the x has two horizontal or two vertical or diagonal and the third is empty.
+- If played against the computer. The same as against player but here the computer tries not to loss and win if can. Each turn check if it has two horizontal or two vertical or diagonal and the third is empty. If not, check if the x has two horizontal or two vertical or diagonal and the third is empty.
   
 <img src="screenshot/PVC.png" alt="PVC" width="300" margin=auto/>      
     
